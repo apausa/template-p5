@@ -4,7 +4,8 @@
   "description": "You have downloaded the complete p5.js library ZIP file, yay!",
   "main": "p5.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "css": "node-sass --include-path scss src/styles/styles.scss src/styles/styles.css",
+    "watch": "nodemon -e scss -x 'npm run css'"
   },
   "repository": {
     "type": "git",
