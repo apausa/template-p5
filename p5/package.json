@@ -1,0 +1,24 @@
+{
+  "name": "p5",
+  "version": "1.0.0",
+  "description": "You have downloaded the complete p5.js library ZIP file, yay!",
+  "main": "p5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apausa/p5.git"
+  },
+  "author": "@apausa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apausa/p5/issues"
+  },
+  "homepage": "https://github.com/apausa/p5#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}
