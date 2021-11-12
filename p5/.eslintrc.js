@@ -11,6 +11,7 @@ module.exports = {
     ecmaVersion: 13,
   },
   rules: {
+    'no-unused-expressions': 'off',
     'no-unused-vars': 'off',
     'no-undef': 'off',
   },
