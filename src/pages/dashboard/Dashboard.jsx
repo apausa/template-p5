@@ -1,9 +1,11 @@
 import React from 'react';
 
+import View1 from '../../components/View1';
+
 export default function Dashboard() {
-  return (
-    <main className="dashboard">
-      Dashboard
-    </main>
-  );
+    return (
+        <div className="dashboard">
+            <View1 />
+        </div>
+    );
 }
