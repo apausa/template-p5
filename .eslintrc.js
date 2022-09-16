@@ -21,9 +21,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   rules: {
-    "@typescript-eslint/indent": ["error", 4],
-    "react/jsx-indent": ["error", 4],
-    "no-tabs": "off",
-    "new-cap": "off"
+    "new-cap": "off",
+    "no-param-reassign": "off"
   },
 };
